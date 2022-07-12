@@ -1,0 +1,95 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  margin: auto;
+  }
+  
+  body{
+  background-image: url(https://i.im.ge/2022/07/11/uJAuNf.jpg);
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  }
+  
+  .title{
+  background: #cb8c909e;
+  padding: 100px;
+  width: 600px;
+  }
+  
+  a{
+  text-decoration: none;
+  }
+  
+  .container{
+  text-align: center;
+  width: 300px;
+  margin: 60px auto;
+  }
+  
+  img{
+  width: 100%;
+  }
+  
+  img.avatar{
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  padding: 3.7px;
+  border: #f29c9cb6 solid 4px;
+  }
+  
+  h2{
+  font size: 30px;
+  color: white;
+  margin top: 24px;
+  margin bottom: 8px;
+  }
+  
+  p{
+  font-weight: 400;
+  color: white;
+  opacity: 0.8;
+  font-size: 17px;
+  }
+  
+  ul{
+  list-style: none;
+  margin: 48px 0;
+  }
+  
+  ul li a{
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #cb8c90aa; /* hex: 0 - F */
+  color: white;
+  text-transform: uppercase;
+  font-size: 17px;
+  
+  margin-bottom: 16px;
+  border-radius: 0px;
+  
+  transition: background 400ms;
+    }
+  
+  /*pseudo-class*/
+  ul li a:hover {
+  background: #edc2ce;
+  }
+  
+  footer{
+  font-size: 12px;
+  color: #00082f;
+  opacity: 0.6;
+  transition: opacity 400ms;
+  }
+  
+  footer:hover{
+  opacity: 1;
+  }
+  
+  footer a{
+  color: #00082f;
+  }
