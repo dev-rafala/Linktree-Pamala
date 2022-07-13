@@ -5,7 +5,7 @@
   margin: 0;
   }
   html{
-    text-align: justify;
+    text-align: center;
   }
 
 body{
@@ -19,7 +19,7 @@ font-family: 'Roboto', sans-serif;
 background: #cb8c909e;
 padding: 100px;
 width: 600px;
-margin: 0;
+margin: auto;
 }
 
 a{
