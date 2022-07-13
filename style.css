@@ -7,6 +7,10 @@
     text-align: center;
   }
 
+  .title{
+  background: #edc2ce;
+  }
+
 body{
 background-image: url(https://i.im.ge/2022/07/13/uGRjic.jpg);
 background-size: cover;
