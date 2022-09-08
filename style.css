@@ -5,29 +5,12 @@
 }
 
 body{
-  background-image: url(images/background.jpg);
-  background-position: center;
-  background-size: cover;
-  
   font-family: 'Roboto', sans-serif;
 
   text-align: center;
-}
-
-.title{
-  background: #edc2ce;
-
-  width: 100%;
-  padding: 50px;
-}
-
-.title:hover{
-  background: none;
-  transition: 1500ms;
-}
-
-.title h1 span{
-  color: #000;
+  
+  
+  background-image: linear-gradient(to top, #FD9073, #FEA579, #FFC394, #FFCC95, #FFDDBA, #FDEFE4);
 }
 
 .container{
@@ -38,25 +21,13 @@ body{
 
 img.avatar{
   border-radius: 50%;
-  border: #edc2ce solid 4px;
+  border: #FD9073 solid 4px;
 
   width: 130px;
   height: 130px;
   padding: 3.7px;
-}
 
-h1{
-  font-size: 40px;
-
-  color: white;
-
-  margin-bottom: 8px;
-}
-
-p{
-  font-weight: bold;
-  font-size: 20px;
-  color: #000;
+  animation: topdown 1s;
 }
 
 ul{
@@ -66,7 +37,7 @@ ul{
 
 a{
   text-decoration: none;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 ul li a{
@@ -77,31 +48,57 @@ ul li a{
   align-items: center;
   justify-content: center;
 
-  background: #cb8c90aa; 
-  color: #000;
+  background: #FD9073; 
+  color: #303030;
 
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 14px;
 
   border-radius: 10px;
 
-  transition: background 400ms;
+  transition: all 700ms;
+
+  animation: list 1s 900ms backwards;
 }
 
 ul li a:hover {
-  background: #edc2ce;
+  background: #FFC394;
 }
 
 footer, footer a{
-  font-size: 16px;
-  color: #000;
+  font-size: 14px;
+  color: #303030;
 }
 
 footer a{
-  color: #535151;
+  color: #000;
+  font-weight: normal;
 }
 
 footer a:hover{
-  color: #edc2ce;
+  font-weight: bold;
 }
 
+@keyframes topdown{
+  0%{
+    opacity: 0;
+    transform:translateY(-50px);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes list{
+  0%{
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
